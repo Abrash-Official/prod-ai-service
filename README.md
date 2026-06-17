@@ -1,1 +1,1 @@
-# prod-ai-service
+# intern-ai-service

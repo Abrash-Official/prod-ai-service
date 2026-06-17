@@ -6,4 +6,6 @@ app = FastAPI()
 def read_root():
     return {"message": "Welcome to the Production AI Service"}
 
-# Placeholder for future features
+@app.post("/v1/rag-query")
+def process_document():
+    return {"status": "success", "data": "Intern added a new RAG extraction endpoint!"}
